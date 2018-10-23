@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p_drinks_bk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drinks01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks01" />
+
+            <ImageView
+                android:id="@+id/drinks02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks02" />
+
+            <ImageView
+                android:id="@+id/drinks03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks03" />
+
+            <ImageView
+                android:id="@+id/drinks04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks04" />
+
+            <ImageView
+                android:id="@+id/drinks05"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks05" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drinks06"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks06" />
+
+            <ImageView
+                android:id="@+id/drinks07"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks07" />
+
+            <ImageView
+                android:id="@+id/drinks08"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks08" />
+
+            <ImageView
+                android:id="@+id/drinks09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks09" />
+
+            <ImageView
+                android:id="@+id/drinks10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drinks11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks11" />
+
+            <ImageView
+                android:id="@+id/drinks12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks12" />
+
+            <ImageView
+                android:id="@+id/drinks13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks13" />
+
+            <ImageView
+                android:id="@+id/drinks14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks14" />
+
+            <ImageView
+                android:id="@+id/drinks15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drinks16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks16" />
+
+            <ImageView
+                android:id="@+id/drinks17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks17" />
+
+            <ImageView
+                android:id="@+id/drinks18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks18" />
+
+            <ImageView
+                android:id="@+id/drinks19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks19" />
+
+            <ImageView
+                android:id="@+id/drinks20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/drinks21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks21" />
+
+            <ImageView
+                android:id="@+id/drinks22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks22" />
+
+            <ImageView
+                android:id="@+id/drinks23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks23" />
+
+            <ImageView
+                android:id="@+id/drinks24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="20dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks24" />
+
+            <ImageView
+                android:id="@+id/drinks25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/drinks25" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/partner_bk"
+    tools:context=".PartnerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/partner_imv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bwt_ball" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="0.9"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/partner_top"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/partner_top" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.3">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/partner_vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/partner_vp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/partner_points"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/last_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="left|top"
+        android:background="@drawable/left"/>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_gravity="right|top"
+        android:background="@drawable/right" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/logo_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:menu_colorNormal="#DFDFDF"
+        app:menu_colorPressed="#A9A9A9"
+        app:menu_colorRipple="#6495ED"
+        app:menu_labels_position="right">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/home_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            app:fab_colorNormal="#DFDFDF"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_label="Home"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/bin_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bintense_logo"
+            app:fab_colorNormal="#DFDFDF"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_label="b-intense"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/aqu_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aquatherm_logo"
+            app:fab_colorNormal="#DFDFDF"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_label="aquatherm"
+            app:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/bwt_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bwt_icon"
+            app:fab_colorNormal="#DFDFDF"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_label="BWT"
+            app:fab_size="normal" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

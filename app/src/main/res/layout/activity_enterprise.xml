@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/enterprise_flt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EnterpriseActivity">
+
+    <LinearLayout
+        android:id="@+id/enterprise_llt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:id="@+id/medical_llt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/medical_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/medical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/business_llt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/business_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/business" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/family_llt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/family_imv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/family" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/last_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="left|top"
+        android:background="@drawable/left"/>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_gravity="right|top"
+        android:background="@drawable/right" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/logo_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left|bottom"
+        app:menu_labels_position="right"
+        app:menu_colorPressed="#A9A9A9"
+        app:menu_colorRipple="#6495ED"
+        app:menu_colorNormal="#DFDFDF">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/home_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon"
+            app:fab_label="Home"
+            app:fab_size="normal"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_colorNormal="#DFDFDF"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/bin_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bintense_logo"
+            app:fab_label="b-intense"
+            app:fab_size="normal"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_colorNormal="#DFDFDF"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/aqu_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/aquatherm_logo"
+            app:fab_label="aquatherm"
+            app:fab_size="normal"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_colorNormal="#DFDFDF"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/bwt_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bwt_icon"
+            app:fab_label="BWT"
+            app:fab_size="normal"
+            app:fab_colorPressed="#A9A9A9"
+            app:fab_colorRipple="#6495ED"
+            app:fab_colorNormal="#DFDFDF"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</FrameLayout>

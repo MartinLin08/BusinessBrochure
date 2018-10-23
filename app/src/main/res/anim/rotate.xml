@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 物件旋轉 重覆執行-->
+    <rotate
+        android:duration="2000"
+        android:fromDegrees="0"
+        android:pivotX="50.0%"
+        android:pivotY="50.0%"
+        android:repeatCount="-1"
+        android:toDegrees="360" />
+    <!-- fromDegrees：動畫開始時的角度
+         toDegrees：動畫結束時物件的旋轉角度,正代表順時針
+         pivotX：屬性為動畫相對於物件的X座標的開始位置
+         pivotY：屬性為動畫相對於物件的Y座標的開始位置
+         duration：動畫持續時間
+         repeatCount：重複次數-->
+</set>

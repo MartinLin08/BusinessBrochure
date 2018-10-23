@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 物件移動 重覆執行-->
+    <translate
+        android:duration="500"
+        android:repeatCount="0"
+        android:fromXDelta="0"
+        android:fromYDelta="100.0%"
+        android:toXDelta="0"
+        android:toYDelta="0" />
+    <!-- fromXDelta,fromYDelta：起始時X，Y座標,螢幕右下角的座標是X:???,Y:???
+         toXDelta,toYDelta：動畫結束時X,Y的座標
+         duration：動畫持續時間
+         repeatCount：重複次數-->
+</set>

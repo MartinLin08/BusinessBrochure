@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/p_hotel_bk">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hotel01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel01" />
+
+            <ImageView
+                android:id="@+id/hotel02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel02" />
+
+            <ImageView
+                android:id="@+id/hotel03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel03" />
+
+            <ImageView
+                android:id="@+id/hotel04"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel04" />
+
+            <ImageView
+                android:id="@+id/hotel05"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel05" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hotel06"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel06" />
+
+            <ImageView
+                android:id="@+id/hotel07"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel07" />
+
+            <ImageView
+                android:id="@+id/hotel08"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel08" />
+
+            <ImageView
+                android:id="@+id/hotel09"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel09" />
+
+            <ImageView
+                android:id="@+id/hotel10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hotel11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel11" />
+
+            <ImageView
+                android:id="@+id/hotel12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel12" />
+
+            <ImageView
+                android:id="@+id/hotel13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel13" />
+
+            <ImageView
+                android:id="@+id/hotel14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel14" />
+
+            <ImageView
+                android:id="@+id/hotel15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hotel16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel16" />
+
+            <ImageView
+                android:id="@+id/hotel17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel17" />
+
+            <ImageView
+                android:id="@+id/hotel18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel18" />
+
+            <ImageView
+                android:id="@+id/hotel19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel19" />
+
+            <ImageView
+                android:id="@+id/hotel20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hotel21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel21" />
+
+            <ImageView
+                android:id="@+id/hotel22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel22" />
+
+            <ImageView
+                android:id="@+id/hotel23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel23" />
+
+            <ImageView
+                android:id="@+id/hotel24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel24" />
+
+            <ImageView
+                android:id="@+id/hotel25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerInside"
+                android:src="@drawable/hotel25" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8" />
+
+    </LinearLayout>
+
+</LinearLayout>
